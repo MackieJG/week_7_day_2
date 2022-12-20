@@ -1,0 +1,14 @@
+.FilmListCss ul {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  background-color: #8bf38ee7;
+}
+
+.FilmListLi {
+  display: flex;
+  justify-items: center;
+  padding-inline-start: 10pc;
+  padding-bottom: 3pc;
+  
+}
