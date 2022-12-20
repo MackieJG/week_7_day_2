@@ -36,7 +36,9 @@ const FilmReleases = () => {
     return (
         <div class="FilmListCss">
             <FilmList films={films}></FilmList>
-            <a href='https://www.imdb.com/calendar/?region=gb'>Future Film Releases >></a>
+            <div class='imdb'>
+                <a href='https://www.imdb.com/calendar/?region=gb'>Future Film Releases >></a>
+            </div>
         </div>
     );
 
